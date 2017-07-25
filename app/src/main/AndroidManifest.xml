@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hailouwang.demosforapi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".volley.SampleRequest"
+            android:label="@string/volley_sample_request">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".widget.LabeledSeekBar"
+            android:label="@string/widget_labeled_seek_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".widget.SelfOptionMenu"
+            android:label="@string/widget_labeled_selfOptionMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app.ActivityLifeCycle"
+            android:label="@string/app_activity_life_cycle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:logo="@drawable/ic_settings"
+            android:name=".app.actionbar.ActionBarDisplayOptions"
+            android:label="@string/app_activity_actionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:logo="@drawable/ic_settings"
+            android:name=".widget.listview.ListViewTest"
+            android:label="@string/widget_listview_test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:logo="@drawable/ic_settings"
+            android:name=".summary.BatteryInfo"
+            android:label="@string/summary_battery_info">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:logo="@drawable/ic_settings"
+            android:name=".summary.DeviceInfo"
+            android:label="@string/summary_device_info">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

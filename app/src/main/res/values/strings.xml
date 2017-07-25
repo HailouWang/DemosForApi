@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemosForApi</string>
+    <string name="volley_sample_request">volley/SampleRequest</string>
+</resources>
