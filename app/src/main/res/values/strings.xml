@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">DemosForApi</string>
+    <!--ImageLoader-->
     <string name="volley_sample_request">volley/SampleRequest</string>
+    <string name="volley_create_request_queue">volley/CreateRequestQueue</string>
+    <string name="volley_singleton_test">volley/MySingletonTest</string>
+    <string name="volley_json_request">volley/JsonRequest</string>
+    <string name="volley_image_request">volley/ImageRequest</string>
+    <string name="volley_image_loader">volley/ImageLoader</string>
+    <string name="volley_network_image_view">volley/NetworkImageView</string>
+    <string name="volley_custom_request">volley/CustomRequest</string>
+
 </resources>

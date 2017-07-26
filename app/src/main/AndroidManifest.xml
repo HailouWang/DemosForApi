@@ -11,19 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".volley.SampleRequest"
+        <activity
+            android:name=".volley.SampleRequest"
             android:label="@string/volley_sample_request">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".widget.LabeledSeekBar"
             android:label="@string/widget_labeled_seek_bar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
@@ -32,6 +34,7 @@
             android:label="@string/widget_labeled_selfOptionMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
@@ -40,45 +43,108 @@
             android:label="@string/app_activity_life_cycle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
         <activity
-            android:logo="@drawable/ic_settings"
             android:name=".app.actionbar.ActionBarDisplayOptions"
-            android:label="@string/app_activity_actionbar">
+            android:label="@string/app_activity_actionbar"
+            android:logo="@drawable/ic_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-
         <activity
-            android:logo="@drawable/ic_settings"
             android:name=".widget.listview.ListViewTest"
-            android:label="@string/widget_listview_test">
+            android:label="@string/widget_listview_test"
+            android:logo="@drawable/ic_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-
         <activity
-            android:logo="@drawable/ic_settings"
             android:name=".summary.BatteryInfo"
-            android:label="@string/summary_battery_info">
+            android:label="@string/summary_battery_info"
+            android:logo="@drawable/ic_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-
         <activity
-            android:logo="@drawable/ic_settings"
             android:name=".summary.DeviceInfo"
-            android:label="@string/summary_device_info">
+            android:label="@string/summary_device_info"
+            android:logo="@drawable/ic_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volley.CreateRequestQueue"
+            android:label="@string/volley_create_request_queue">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volley.MySingletonTest"
+            android:label="@string/volley_singleton_test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volley.JsonRequest"
+            android:label="@string/volley_json_request">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".volley.CustomVolleyRequest"
+            android:label="@string/volley_custom_request">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volley.ImageReqestTest"
+            android:label="@string/volley_image_request">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volley.ImageLoaderTest"
+            android:label="@string/volley_image_loader">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".volley.NetworkImageViewTest"
+            android:label="@string/volley_network_image_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
