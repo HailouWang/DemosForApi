@@ -36,7 +36,7 @@ public class CustomVolleyRequest extends AppCompatActivity {
                 getRequestQueue();
 
         //2、初始化GSON Request
-        String url = "http://www.sojson.com/api/beian/sojson.com";/*http://www.google.com*/
+        String url = "https://hailouwang.github.io/JsonDemo.html";/*http://www.google.com*/
         GsonRequest<ComplanyWebSiteInfo> gsonRequest = new GsonRequest<>(url,ComplanyWebSiteInfo.class,
             null,new Response.Listener<ComplanyWebSiteInfo>(){
                 @Override
@@ -56,23 +56,80 @@ public class CustomVolleyRequest extends AppCompatActivity {
     }
 
     class ComplanyWebSiteInfo{
-        private String indexUrl;
-        private String icp;
+        private String name;
+        private String url;
+        private Address address;
 
-        public String getIndexUrl() {
-            return indexUrl;
+        public String getName() {
+            return name;
         }
 
-        public void setIndexUrl(String indexUrl) {
-            this.indexUrl = indexUrl;
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getUrl() {
+            return url;
+        }
+
+        public void setUrl(String url) {
+            this.url = url;
+        }
+
+        public Address getAddress() {
+            return address;
+        }
+
+        public void setAddress(Address address) {
+            this.address = address;
         }
 
         @Override
         public String toString() {
             return "ComplanyWebSiteInfo{" +
-                    "indexUrl='" + indexUrl + '\'' +
-                    ", icp='" + icp + '\'' +
+                    "name='" + name + '\'' +
+                    ", url='" + url + '\'' +
+                    ", address=" + address +
                     '}';
+        }
+
+        class Address{
+            private String street;
+            private String city;
+            private String country;
+
+            public String getStreet() {
+                return street;
+            }
+
+            public void setStreet(String street) {
+                this.street = street;
+            }
+
+            public String getCity() {
+                return city;
+            }
+
+            public void setCity(String city) {
+                this.city = city;
+            }
+
+            public String getCountry() {
+                return country;
+            }
+
+            public void setCountry(String country) {
+                this.country = country;
+            }
+
+            @Override
+            public String toString() {
+                return "Address{" +
+                        "street='" + street + '\'' +
+                        ", city='" + city + '\'' +
+                        ", country='" + country + '\'' +
+                        '}';
+            }
         }
     }
 

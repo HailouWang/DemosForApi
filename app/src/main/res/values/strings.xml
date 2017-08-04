@@ -10,4 +10,7 @@
     <string name="volley_network_image_view">volley/NetworkImageView</string>
     <string name="volley_custom_request">volley/CustomRequest</string>
 
+    <!--Network-->
+    <string name="network_simple_request">network/SimpleNetworkRequest</string>
+
 </resources>

@@ -114,7 +114,8 @@
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-        <activity android:name=".volley.CustomVolleyRequest"
+        <activity
+            android:name=".volley.CustomVolleyRequest"
             android:label="@string/volley_custom_request">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -140,8 +141,17 @@
                 <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
             </intent-filter>
         </activity>
-        <activity android:name=".volley.NetworkImageViewTest"
+        <activity
+            android:name=".volley.NetworkImageViewTest"
             android:label="@string/volley_network_image_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="hailouwang.demosforapi.intent.category.DEMOS_API" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".network.SimpleNetworkRequest"
+            android:label="@string/network_simple_request">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

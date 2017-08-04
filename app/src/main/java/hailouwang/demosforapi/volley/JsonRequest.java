@@ -25,7 +25,7 @@ public class JsonRequest extends AppCompatActivity {
         final TextView mTxtDisplay;
         ImageView mImageView;
         mTxtDisplay = (TextView) findViewById(R.id.txtDisplay);
-        String url = "http://www.sojson.com/open/api/weather/json.shtml?city=北京";
+        String url = "https://hailouwang.github.io/JsonDemo.html";
 
         JsonObjectRequest jsObjRequest = new JsonObjectRequest
                 (Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
