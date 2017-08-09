@@ -1,1 +1,1 @@
-include ':app', ':demosandapis', ':Volley-Reading', ':javabase'
+include ':app', ':Volley-Reading', ':javabase'
