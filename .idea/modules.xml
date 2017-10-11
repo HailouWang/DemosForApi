@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DemosForApi.iml" filepath="$PROJECT_DIR$/DemosForApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volley-Reading/Volley-Reading.iml" filepath="$PROJECT_DIR$/Volley-Reading/Volley-Reading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VolleyReading/VolleyReading.iml" filepath="$PROJECT_DIR$/VolleyReading/VolleyReading.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DotsPageIndicator/dotspageindicator.iml" filepath="$PROJECT_DIR$/DotsPageIndicator/dotspageindicator.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabase/javabase.iml" filepath="$PROJECT_DIR$/javabase/javabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messageview/messageview.iml" filepath="$PROJECT_DIR$/messageview/messageview.iml" />
     </modules>
   </component>
 </project>

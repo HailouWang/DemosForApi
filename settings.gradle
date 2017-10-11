@@ -1,1 +1,1 @@
-include ':app', ':Volley-Reading', ':javabase'
+include ':app', ':VolleyReading', ':javabase', ':messageview', ':dotspageindicator'

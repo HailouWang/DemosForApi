@@ -1,0 +1,7 @@
+project.common{
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+
+    minSdkVersion 24
+    targetSdkVersion 26
+}
